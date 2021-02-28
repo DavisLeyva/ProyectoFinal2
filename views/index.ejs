@@ -1,0 +1,12 @@
+<%- include('header') -%> 
+
+<h1>Productos:</h1>
+<h3>Nombres:</h3>
+
+<% contacs.forEach(contac=>{ %>
+<p><%= contac.nombre %>: <%= contac.email %></p>
+<% })%>
+
+<%- include('footer') -%> 
+
+
